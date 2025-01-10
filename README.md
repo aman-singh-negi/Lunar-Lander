@@ -2,10 +2,22 @@ The Lunar Landing Module project leverages Deep Reinforcement Learning and Neura
 simulated environment of Gymnasium's LunarLander-v3. By utilizing a Double Deep Q-Network (DDQN) architecture, the model trains to maximize landing performance
 through reward-based learning. This project demonstrates the application of AI in solving control and navigation tasks, setting the groundwork for potential 
 real-world applications.
-
 OBJECTIVES 
 • To develop a reinforcement learning model that efficiently controls a lunar lander's movements.
 • To optimize the lander's descent and safe landing through policy learning. • To achieve an average score of 100 in the LunarLander-v3 environment.
+
+
+https://github.com/user-attachments/assets/e8ae4c4b-f05f-4933-8f39-68eef2144ffa
+
+
+https://github.com/user-attachments/assets/a82d61f5-f717-450e-b4ba-4a3d9279f0be
+
+
+
+
+https://github.com/user-attachments/assets/77be5f84-8016-4822-8bf6-7525d516fe12
+
+
 
 METHODOLOGY
 1. Environment Setup: The LunarLander-v3 environment from Gymnasium simulates the lunar landing task. The state and action spaces were analyzed for model integration.
@@ -14,7 +26,8 @@ for gradual weight updates.
 3. Replay Buffer: Experiences were stored in a replay buffer to decorrelate consecutive data and improve training efficiency.
 5. Training Process: Reward clipping and experience sampling techniques were used.The epsilongreedy algorithm balanced exploration and exploitation during action
    selection.COMPONENTS AND IMPLEMENTATION
-   
+   ![download](https://github.com/user-attachments/assets/5dca792a-d882-4fc5-8558-763cc7c7dd11)
+
 Hardware: A system with GPU support for efficient training (optional but recommended).
 Software: Python libraries: gymnasium, torch, numpy, imageio.
 Implementation: The project consists of the following main modules:
